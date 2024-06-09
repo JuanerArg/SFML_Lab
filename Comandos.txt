@@ -1,0 +1,3 @@
+Crear la build y usarla o no se algo asi
+    cmake -G "MinGW Makefiles" -B build -DCMAKE_BUILD_TYPE=Release
+    cmake --build build --config Release -- VERBOSE=1
